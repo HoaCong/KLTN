@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/libs/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">
@@ -123,6 +124,32 @@
 						?>
 
 						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div class="m_header">
+				<div class="container">
+					<div class="navbar-header">
+						<div class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+							<i class="fas fa-bars"></i>
+						</div>
+						<a class="navbar-brand name_menu" href="#">MENU</a>
+					</div>
+					<div class="collapse navbar-collapse" id="menu">
+						<div id="nav-menu">
+							<!-- lay menu -->
+							<?php wp_nav_menu(
+								array(
+									'theme_location' => 'header-main',
+									'container' => 'false',
+									'menu_id' => 'header-main',
+									'menu_class' => 'header-main'
+								)
+							);
+							?>
+
+							<div class="clear"></div>
+						</div>
 					</div>
 				</div>
 			</div>

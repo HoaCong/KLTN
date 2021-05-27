@@ -244,3 +244,119 @@ img.aligncenter {
   width: 100%;
   height: 350px;
 }
+/* HEADER */
+.name_menu {
+  color: #fff;
+}
+header .m_header {
+  background: #2196f3;
+  display: none;
+  margin-bottom: 38px;
+}
+header .m_header .navbar-toggle {
+  float: right;
+}
+header .m_header .navbar-toggle i {
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+}
+header .m_header .navbar-header {
+  border-bottom: 1px solid #e2e2e2;
+}
+header .m_header #nav-menu ul li {
+  float: left;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+header .m_header #nav-menu ul li a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+#nav-menu ul li:hover {
+  background: #0071cc;
+}
+header .m_header #nav-menu ul li.current-menu-item a {
+  background: #0071cc;
+}
+.contact-us .btn-sub input {
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  padding: 4px;
+  outline: none;
+  border: none;
+}
+.contact-us .btn-sub input:hover {
+  background-color: #0071cc;
+  color: #fff;
+}
+
+.woocommerce table.shop_table th {
+  text-align: center;
+}
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .content-contact .wpcf7-form-control-wrap input,
+footer .content-contact .wpcf7-form-control-wrap textarea {
+  max-height: 80px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  box-shadow: none !important;
+  border-radius: 2px;
+  border: 1px solid #888888;
+  background: #333;
+  width: 100%;
+  color: #fff;
+}
+footer .btn-contact .wpcf7-form-control {
+  border-radius: 30px;
+  border: 0;
+  padding: 5px 20px;
+  color: #fff;
+  background: #2196f3;
+}
+footer .copyright {
+  text-align: center;
+  padding: 10px;
+  background: #4c4c4c;
+  margin-top: 40px;
+}
+footer .copyright p {
+  margin-bottom: 0;
+}
+.no-padding {
+  padding: 0 !important;
+}
+
+ul.products li.product {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+  /* margin: 8px 16px 8px 8px !important; */
+  padding: 8px !important;
+}
+.item-product {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+  padding-bottom: 16px;
+}
+.item-product:hover,
+ul.products li.product:hover {
+  box-shadow: #66b3ff 0px 0px 10px;
+}
+
+.products li a {
+  text-align: center;
+  display: block !important;
+}
+.woocommerce ul.products li.product .button {
+  background-color: #2196f3;
+  color: #fff;
+}
+.woocommerce ul.products li.product .button:hover {
+  background-color: #0071cc;
+}

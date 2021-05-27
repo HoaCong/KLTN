@@ -15,6 +15,9 @@
   .map iframe {
     height: 300px;
   }
+  header .m_header {
+    display: block;
+  }
 }
 @media (max-width: 540px) {
   #content .product-section h2.title-product .list-child ul li {
